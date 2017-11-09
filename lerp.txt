@@ -1,0 +1,7 @@
+// 線形補間
+// @from  : 始点
+// @to    : 終点
+// @time : 時間
+function lerp(from, to, time) {
+  return (from * (1 - time)) + (to * time);
+}
